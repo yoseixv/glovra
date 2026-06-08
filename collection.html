@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ── SEO : Title & Description ── -->
+    <title>Collection Becoming — Rouges à Lèvres Longue Tenue | Glovra</title>
+    <meta
+      name="description"
+      content="Découvrez Becoming, la première collection de rouges à lèvres longue tenue Glovra. Innocence, Power, Obsession : trois teintes pensées comme un langage de présence."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://glovra.com/collection" />
+
+    <!-- ── Open Graph ── -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Collection Becoming — Rouges à Lèvres Longue Tenue | Glovra"
+    />
+    <meta
+      property="og:description"
+      content="Becoming, la première collection de rouges à lèvres Glovra. Trois teintes : Innocence, Power, Obsession — bientôt disponible."
+    />
+    <meta property="og:url" content="https://glovra.com/collection" />
+    <meta
+      property="og:image"
+      content="https://glovra.com/images/og-collection.webp"
+    />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Glovra" />
+
+    <!-- ── Twitter Card ── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Collection Becoming — Rouges à Lèvres Longue Tenue | Glovra"
+    />
+    <meta
+      name="twitter:description"
+      content="Trois teintes de rouge à lèvres longue tenue signées Glovra. Collection Becoming, bientôt disponible."
+    />
+    <meta
+      name="twitter:image"
+      content="https://glovra.com/images/og-collection.webp"
+    />
+
+    <!-- ── Fonts : preconnect + requête unique ── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Gravitas+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ── Preload image LCP ── -->
+    <link
+      rel="preload"
+      as="image"
+      href="images/rouge_a_levre_01.webp"
+      fetchpriority="high"
+    />
+
+    <!-- ── Feuille de style ── -->
+    <link rel="stylesheet" href="collection.css" />
+
+    <!-- ── Schema.org : Collection produit ── -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Collection Becoming — Glovra",
+        "description": "Becoming est la première collection de rouges à lèvres longue tenue Glovra. Trois teintes : Innocence, Power, Obsession.",
+        "url": "https://glovra.com/collection",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Glovra",
+          "url": "https://glovra.com"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <header role="banner">
+      <div class="header-inner">
+        <a class="logo" href="/" aria-label="GLOVRA — Retour à l'accueil">
+          <img
+            src="images/logo.svg"
+            alt="Logo GLOVRA"
+            width="120"
+            height="40"
+          />
+        </a>
+        <button
+          class="burger"
+          aria-label="Ouvrir le menu de navigation"
+          aria-expanded="false"
+          aria-controls="nav-mobile"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-desktop" aria-label="Navigation principale">
+          <a href="index.html">Accueil</a>
+          <a href="collection.html">Collection</a>
+          <a href="marque.html">Marque</a>
+        </nav>
+      </div>
+      <div class="header-line" aria-hidden="true"></div>
+    </header>
+
+    <!-- Navigation mobile -->
+    <div
+      class="nav-mobile"
+      id="nav-mobile"
+      role="dialog"
+      aria-label="Menu de navigation mobile"
+      aria-hidden="true"
+    >
+      <nav aria-label="Navigation mobile">
+        <a href="index.html">Accueil</a>
+        <a href="collection.html">Collection</a>
+        <a href="marque.html">Marque</a>
+      </nav>
+    </div>
+
+    <main id="main-content">
+      <!-- ── Section : Collection Becoming ── -->
+      <section class="collection" aria-labelledby="collection-heading">
+        <h1 id="collection-heading" class="visually-hidden">
+          Collection Becoming — Rouges à lèvres longue tenue Glovra
+        </h1>
+
+        <!-- Panneau sticky : carte produit active -->
+        <div
+          class="col-sticky"
+          role="complementary"
+          aria-label="Détail de la teinte active"
+        >
+          <div class="col-bar">
+            <span class="col-bar-title">becoming</span>
+            <div class="col-bar-center">
+              <div class="col-bar-line" aria-hidden="true"></div>
+              <span class="col-bar-quote js-quote">" she whispers "</span>
+              <div class="col-bar-line" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="col-bar-sub">Rouge à lèvres longue tenue</div>
+
+          <div class="col-card">
+            <div class="col-card-top js-card-top">
+              <h2 class="col-card-title js-card-title">01 Innocence</h2>
+            </div>
+            <div class="col-card-img js-card-img">
+              <img
+                src="images/rouge_a_levre_01.webp"
+                alt="Rouge à lèvres Glovra 01 Innocence — teinte rose nude longue tenue"
+                class="js-lipstick"
+                width="400"
+                height="600"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+              />
+            </div>
+            <a
+              class="col-card-btn"
+              href="#teinte-innocence"
+              aria-label="Découvrir la teinte 01 Innocence de la collection Becoming Glovra"
+            >
+              <svg aria-hidden="true" focusable="false">
+                <rect width="100%" height="100%" />
+              </svg>
+              <span>Découvrir la teinte</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Galerie de photos par teinte -->
+        <div
+          class="col-photos"
+          role="list"
+          aria-label="Les teintes de la collection Becoming"
+        >
+          <article
+            class="col-item"
+            data-index="0"
+            id="teinte-innocence"
+            role="listitem"
+          >
+            <h3 class="visually-hidden">
+              01 Innocence — Rouge à lèvres rose nude longue tenue
+            </h3>
+            <img
+              class="col-photo"
+              src="images/01_innocence.webp"
+              alt="Glovra 01 Innocence — rouge à lèvres rose nude, teinte douce et présence subtile"
+              width="900"
+              height="1200"
+              loading="eager"
+              decoding="async"
+            />
+          </article>
+
+          <article
+            class="col-item"
+            data-index="1"
+            id="teinte-power"
+            role="listitem"
+          >
+            <h3 class="visually-hidden">
+              02 Power — Rouge à lèvres rouge intense longue tenue
+            </h3>
+            <img
+              class="col-photo"
+              src="images/02_power.webp"
+              alt="Glovra 02 Power — rouge à lèvres rouge intense, teinte affirmée et présence forte"
+              width="900"
+              height="1200"
+              loading="lazy"
+              decoding="async"
+            />
+          </article>
+
+          <article
+            class="col-item"
+            data-index="2"
+            id="teinte-obsession"
+            role="listitem"
+          >
+            <h3 class="visually-hidden">
+              03 Obsession — Rouge à lèvres bordeaux profond longue tenue
+            </h3>
+            <img
+              class="col-photo"
+              src="images/03_obsession.webp"
+              alt="Glovra 03 Obsession — rouge à lèvres bordeaux profond, teinte envoûtante et présence magnétique"
+              width="900"
+              height="1200"
+              loading="lazy"
+              decoding="async"
+            />
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- ── Footer ── -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-col">
+          <img src="images/logo.svg" alt="Glovra" class="footer-logo" />
+          <p class="footer-copy">© 2026 Glovra – Tous droits réservés</p>
+        </div>
+        <div class="footer-col">
+          <a href="index.html">Accueil</a>
+          <a href="collection.html">Collection</a>
+          <a href="marque.html">Marque</a>
+        </div>
+        <div class="footer-col">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+          <a href="#">CGU</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-email">contact@glovra.com</p>
+          <div class="footer-socials-wrap">
+            <div class="footer-socials">
+              <a
+                href="#"
+                class="footer-social-link"
+                aria-label="Facebook Glovra"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="footer-social-link"
+                aria-label="Instagram Glovra"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle
+                    cx="17.5"
+                    cy="6.5"
+                    r="1"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="footer-social-link"
+                aria-label="LinkedIn Glovra"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </a>
+              <a href="#" class="footer-social-link" aria-label="TikTok Glovra">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-big-logo">
+        <img src="images/logo_cut.svg" alt="Glovra" />
+      </div>
+    </footer>
+
+    <!-- ── Scripts en fin de page (performance) ── -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+      defer
+    ></script>
+    <script src="collection.js" defer></script>
+  </body>
+</html>
