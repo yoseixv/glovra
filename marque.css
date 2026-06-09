@@ -413,8 +413,8 @@ nav a::after {
 
 .brand-approach-right .parallax-wrap {
   width: 100%;
-  height: 500px;        /* hauteur fixe en px — la seule valeur fiable */
-  aspect-ratio: unset;  /* annule l'aspect-ratio desktop */
+  height: 500px;
+  aspect-ratio: unset;
 }
 
 .brand-approach-right .parallax-wrap img {
