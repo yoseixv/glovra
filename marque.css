@@ -395,18 +395,33 @@ nav a::after {
     max-width: 75%;
   }
 
-  /* ── Brand Approach ── */
-  .brand-approach {
-    display: flex;
-    flex-direction: column;
-    padding: 40px 24px 60px;
-    gap: 24px;
-  }
+/* ── Brand Approach ── */
+.brand-approach {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 24px 60px;
+  gap: 24px;
+}
 
-  .brand-approach-left {
-    padding-left: 0;
-    order: 1;
-  }
+.brand-approach-left {
+  padding-left: 0;
+}
+
+.brand-approach-right {
+  width: 100%;
+}
+
+.brand-approach-right .parallax-wrap {
+  width: 100%;
+  height: 500px;        /* hauteur fixe en px — la seule valeur fiable */
+  aspect-ratio: unset;  /* annule l'aspect-ratio desktop */
+}
+
+.brand-approach-right .parallax-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
   /* ── Brand Becoming ── */
   .brand-becoming {
