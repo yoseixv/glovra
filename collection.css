@@ -549,15 +549,15 @@ footer {
 
   /* Swap images collection */
   .col-item[data-index="0"] .col-photo {
-    content: url("images/01_innocence_tel.jpg");
+    content: url("images/01_innocence_tel.webp");
   }
 
   .col-item[data-index="1"] .col-photo {
-    content: url("images/02_power_tel.jpg");
+    content: url("images/02_power_tel.webp");
   }
 
   .col-item[data-index="2"] .col-photo {
-    content: url("images/03_obsession_tel.jpg");
+    content: url("images/03_obsession_tel.webp");
   }
 
   /* ── Footer ── */
