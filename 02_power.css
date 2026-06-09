@@ -1229,10 +1229,10 @@ footer {
     object-position: center top;
   }
   .col-item[data-index="0"] .col-photo {
-    content: url("images/01_innocence_tel.jpg");
+    content: url("images/01_innocence_tel.webp");
   }
   .col-item[data-index="1"] .col-photo {
-    content: url("images/03_obsession_tel.jpg");
+    content: url("images/03_obsession_tel.webp");
   }
 
   footer {
