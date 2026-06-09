@@ -419,6 +419,11 @@ nav a::after {
     margin-left: 0;
   }
 
+    .brand-approach-right .parallax-wrap {
+    aspect-ratio: 3 / 4;
+    width: 100%;
+  }
+
   /* ── Brand Becoming ── */
   .brand-becoming {
     padding: 40px 24px 80px;
@@ -773,7 +778,7 @@ footer {
   }
 
   .newsletter-img {
-    content: url("images/newsletter_tel.jpg");
+    content: url("images/newsletter_tel.webp");
     object-position: center;
   }
 
