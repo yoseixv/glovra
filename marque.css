@@ -396,7 +396,6 @@ nav a::after {
   }
 
   /* ── Brand Approach ── */
-  /* ── Brand Approach ── */
   .brand-approach {
     display: flex;
     flex-direction: column;
@@ -407,10 +406,6 @@ nav a::after {
   .brand-approach-left {
     padding-left: 0;
     order: 1;
-  }
-
-  .brand-approach-right {
-    order: 2;
   }
 
   .brand-approach-img {
