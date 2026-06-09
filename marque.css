@@ -408,11 +408,6 @@ nav a::after {
     order: 1;
   }
 
-  .brand-approach-right .parallax-wrap {
-    width: 100%;
-    height: 400px; /* valeur fixe, plus fiable que aspect-ratio */
-  }
-
   /* ── Brand Becoming ── */
   .brand-becoming {
     padding: 40px 24px 80px;
