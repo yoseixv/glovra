@@ -396,6 +396,7 @@ nav a::after {
   }
 
   /* ── Brand Approach ── */
+  /* ── Brand Approach ── */
   .brand-approach {
     display: flex;
     flex-direction: column;
@@ -419,7 +420,7 @@ nav a::after {
     margin-left: 0;
   }
 
-    .brand-approach-right .parallax-wrap {
+  .brand-approach-right .parallax-wrap {
     aspect-ratio: 3 / 4;
     width: 100%;
   }
