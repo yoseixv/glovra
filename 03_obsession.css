@@ -1128,10 +1128,10 @@ footer {
     width: 100%;
     height: 110vw;
     object-fit: cover;
-    opacity: 1;
+    opacity: 1!important;
   }
   .act-text {
-    opacity: 1;
+    opacity: 1!important;
   }
 
   .composition {
