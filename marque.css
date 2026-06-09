@@ -408,16 +408,9 @@ nav a::after {
     order: 1;
   }
 
-  .brand-approach-img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin-left: 0;
-  }
-
   .brand-approach-right .parallax-wrap {
-    aspect-ratio: 3 / 4;
     width: 100%;
+    height: 400px; /* valeur fixe, plus fiable que aspect-ratio */
   }
 
   /* ── Brand Becoming ── */
